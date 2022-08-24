@@ -1,1 +1,87 @@
-/*Personal Web Page Style Sheet */
+header, nav, main, footer, aside {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #C3D8D4;
+}
+
+header p{
+  font-family:cursive;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+h2 {
+  font-family: cursive;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+ul{
+  font-family: cursive;
+  padding-left: 70px;
+}
+footer{
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.images{
+  float: right;
+  padding-top:50px;
+  padding-right: 70px;
+
+
+}
+
+h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: cursive;
+  padding left: 20px;
+  text-align: center;
+  background-color: #10374A;
+background-blend-mode: color-burn;
+color: #C3D8D4;
+font-size: 20px;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: cursive;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.links:link{
+  font-family: cursive;
+  padding-left: 20px;
+  color:#000000;
+}
+
+.links :visited {
+  color: #10374A;
+}
+
+ .links :hover {
+  color:#ffffff ;
+}
